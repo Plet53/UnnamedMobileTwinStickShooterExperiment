@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Wall : MonoBehaviour
 {
-  public void OnTriggerEnter2D(Collider2D a){
+  public void OnTriggerEnter2D(Collider2D a) {
     Destroy(a.gameObject);
   }
 }
